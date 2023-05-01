@@ -24,7 +24,7 @@ function Navigation() {
     )
 
     if (currentUser) {
-        loginActions = (
+       loginActions = (
             <li style={{ float: 'right' }}>
                 Logged in as {currentUser.firstName} {currentUser.lastName}
             </li>
